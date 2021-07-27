@@ -1,8 +1,4 @@
-var rectangulo={
-    perimetro:(x,y)=>(2*(x+y)),
-    area:(x,y)=>(x*y)
-};
-
+var rectangulo=require("./rectangulo");
 function resolver(x,y){
     console.log("Resolviendo rectangulo para x="+x+" y="+y)
     if (x<=0 || y<=0){
